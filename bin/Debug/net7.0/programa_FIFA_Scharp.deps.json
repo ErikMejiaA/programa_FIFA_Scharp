@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "programa_FIFA_Scharp/1.0.0": {
+        "runtime": {
+          "programa_FIFA_Scharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "programa_FIFA_Scharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

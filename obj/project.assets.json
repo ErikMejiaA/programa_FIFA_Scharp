@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/apolm01-032/.nuget/packages/": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/apolm01-032/Desktop/programa_FIFA_Scharp/programa_FIFA_Scharp.csproj",
+      "projectUniqueName": "D:\\Campus Lat\\programasNETCore\\programa_FIFA_Scharp\\programa_FIFA_Scharp.csproj",
       "projectName": "programa_FIFA_Scharp",
-      "projectPath": "/home/apolm01-032/Desktop/programa_FIFA_Scharp/programa_FIFA_Scharp.csproj",
-      "packagesPath": "/home/apolm01-032/.nuget/packages/",
-      "outputPath": "/home/apolm01-032/Desktop/programa_FIFA_Scharp/obj/",
+      "projectPath": "D:\\Campus Lat\\programasNETCore\\programa_FIFA_Scharp\\programa_FIFA_Scharp.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "D:\\Campus Lat\\programasNETCore\\programa_FIFA_Scharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/apolm01-032/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.108/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

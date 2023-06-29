@@ -24,9 +24,21 @@ namespace programa_FIFA_Scharp.clases
             this.especialidad = especialidad;
             this.edad_medico = edad_medico;
         }
-
         public CuerpoMedico(){
 
+        }
+
+        public CuerpoMedico RegistrarCuerpoMedico(){
+            CuerpoMedico cuerpoMedico = new CuerpoMedico();
+            Console.WriteLine("Ingrese el Id del cuerpo Medico:");
+            cuerpoMedico.Id_medico = Console.ReadLine();
+            Console.WriteLine("Ingrese el nombre del Cuerpo Medico:");
+            cuerpoMedico.Nombre_medico = Console.ReadLine();
+            Console.WriteLine("Ingrese la especialidad del Cuerpo Medico:");
+            cuerpoMedico.Especialidad = Console.ReadLine();
+            Console.WriteLine("Dijete la edad del Cuerpo Tecnico:");
+            cuerpoMedico.Edad_medico = Convert.ToInt32(Console.ReadLine());
+            return cuerpoMedico;
         }
     }
 }

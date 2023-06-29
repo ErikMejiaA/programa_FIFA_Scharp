@@ -33,5 +33,20 @@ namespace programa_FIFA_Scharp.clases
         {
 
         }
+
+        public Jugador RegistroJugador(){
+            Jugador jugador = new Jugador();
+            Console.WriteLine("Ingrese el Id del jugador:");
+            jugador.Id_jugador = Console.ReadLine();
+            Console.WriteLine("Ingrese el nombre del Jugador:");
+            jugador.Nombre_jugador = Console.ReadLine();
+            Console.WriteLine("Ingrese el numero del Dorsal del jugador:");
+            jugador.Nro_dorsal = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ingrese la posicion del jugador:");
+            jugador.Posicion = Console.ReadLine();
+            Console.WriteLine("Ingrese la edad del jugador:");
+            jugador.edad_jugador = Convert.ToInt32(Console.ReadLine());
+            return jugador;
+        }
     }
 }

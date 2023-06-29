@@ -25,9 +25,21 @@ namespace programa_FIFA_Scharp.clases
             this.edad_tecnico = edad_tecnico;
 
         }
-
         public CuerpoTecnico(){
 
+        }
+
+        public CuerpoTecnico RegistraCuerpoTecnico(){
+            CuerpoTecnico cuerpoTecnico = new CuerpoTecnico();
+            Console.WriteLine("Ingrese el id del Cuerpo Tecnico:");
+            cuerpoTecnico.Id_tecnico = Console.ReadLine();
+            Console.WriteLine("Ingrese el nombre del Cuerpo Tecnico:");
+            cuerpoTecnico.Nombre_tecnico = Console.ReadLine();
+            Console.WriteLine("Ingrese el cargo del Cuerpo Tecnico:");
+            cuerpoTecnico.Cargo = Console.ReadLine();
+            Console.WriteLine("Ingrese la edad del Cuerpo Tecnico:");
+            cuerpoTecnico.Edad_tecnico = Convert.ToInt32(Console.ReadLine());
+            return cuerpoTecnico;
         }
 
     }
