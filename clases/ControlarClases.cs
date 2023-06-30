@@ -32,31 +32,57 @@ namespace programa_FIFA_Scharp.clases
                 Console.ReadKey();
                 bool opcRegistros = true;
                 while (opcRegistros)
-                {
-                    Console.WriteLine("Dijite la opcion que desea Registra:\n1. Registar Jugadores.\n2. Registrar Cuerpo Tecnico.\n3. Registrar Cuerpo Medico.\n4.Salir de Registros.");
+                {   
+                    Console.WriteLine("* Dijite la opcion que desea Registra:\n1. Registar Jugadores.\n2. Registrar Cuerpo Tecnico.\n3. Registrar Cuerpo Medico.\n4. Salir de Registros.");
                     int opcion = Convert.ToInt32(Console.ReadLine());
                     Console.ReadKey();
                     switch (opcion)
                     {
                         case 1:
-                            //colocarle un while a cada caso de registro 
-                            Jugador jugador = new Jugador();
-                            jugador.RegistroJugador();
-                            equipo.Jugadores.Add(jugador);
-                            Console.ReadKey();
+                            bool opcJugador = true;
+                            while (opcJugador)
+                            {
+                                Jugador jugador = new Jugador();
+                                jugador.RegistroJugador();
+                                equipo.Jugadores.Add(jugador);
+                                Console.ReadKey();
+                                Console.WriteLine("Desea agregar otro Jugador más? Precione: Enter (SI) ó Escape (NO).");
+                                if (Console.ReadKey().Key == ConsoleKey.Escape){
+                                    opcJugador = false;
+                                }
+                            }
                             break;
+
                         case 2:
-                            CuerpoTecnico cuerpoTecnico = new CuerpoTecnico();
-                            cuerpoTecnico.RegistraCuerpoTecnico();
-                            equipo.Tecnicos.Add(cuerpoTecnico);
-                            Console.ReadKey();
+                            bool opcTecnico = true;
+                            while (opcTecnico)
+                            {
+                                CuerpoTecnico cuerpoTecnico = new CuerpoTecnico();
+                                cuerpoTecnico.RegistraCuerpoTecnico();
+                                equipo.Tecnicos.Add(cuerpoTecnico);
+                                Console.ReadKey();
+                                Console.WriteLine("Desea agregar otro mienbro del Cuerpo Tecnico más? Precione: Enter (SI) ó Escape (NO).");
+                                if (Console.ReadKey().Key == ConsoleKey.Escape){
+                                    opcTecnico = false;
+                                }
+                            }
                             break;
+
                         case 3:
-                            CuerpoMedico cuerpoMedico = new CuerpoMedico();
-                            cuerpoMedico.RegistrarCuerpoMedico();
-                            equipo.Medicos.Add(cuerpoMedico);
-                            Console.ReadKey();
+                            bool opcMedico = true;
+                            while (opcMedico)
+                            {
+                                CuerpoMedico cuerpoMedico = new CuerpoMedico();
+                                cuerpoMedico.RegistrarCuerpoMedico();
+                                equipo.Medicos.Add(cuerpoMedico);
+                                Console.ReadKey();
+                                Console.WriteLine("Desea agregar otro mienbro del Cuerpo Medico más? Precione: Enter (SI) ó Escape (NO).");
+                                if (Console.ReadKey().Key == ConsoleKey.Escape){
+                                    opcMedico = false;
+                                }
+                            }
                             break;
+
                         case 4:
                             opcRegistros = false;
                             break;
@@ -77,11 +103,19 @@ namespace programa_FIFA_Scharp.clases
                 }
             }
 
+
+
             foreach (Equipo item in equipos)
             {
-                Console.WriteLine("{0, -15} {1, 15} {2, 30} ", item.Id_equipo, item.Nombre_pais, item.Grupo);
+                foreach (Jugador n in item.Jugadores)
+                {
+                    Console.WriteLine(" {0, -8} {1, 10} {2, 16} {3, 25} {4, 35} ", n.Id_jugador, n.Nombre_jugador, n.Nro_dorsal, n.Posicion, n.Edad_juagador);
+                }
+                
             }
-
+            Console.ReadKey();
         }
+
+
     }
 }
