@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nlRxzYVTQgLxKVntsJTQcrqlv4h+s70sW8Z2WGVgGhIKDZc7WkyxmuMDjsQjHoa2VH4Uok1Uxaj6hCzliVXgfA==",
+  "dgSpecHash": "k2Xcu4FEjeLUH0Dhr6GwYVB7YpVcj6oH0Mi2XcdjSA+mJ24BDWSn51h6CSFYymp2WhO52F/+Pyry+Lc0+a3wmQ==",
   "success": true,
   "projectFilePath": "D:\\Campus Lat\\programasNETCore\\programa_FIFA_Scharp\\programa_FIFA_Scharp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

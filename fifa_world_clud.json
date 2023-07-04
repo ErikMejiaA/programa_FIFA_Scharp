@@ -1,0 +1,79 @@
+[
+  {
+    "Nombre_pais": "ECUADOR",
+    "Grupo": "A",
+    "Id_equipo": "1",
+    "Jugadores": [],
+    "Tecnicos": [],
+    "Medicos": [],
+    "LeyendaPuntos": []
+  },
+  {
+    "Nombre_pais": "COLOMBIA",
+    "Grupo": "A",
+    "Id_equipo": "2",
+    "Jugadores": [
+      {
+        "Nombre_jugador": "LUISA",
+        "Nro_dorsal": 12,
+        "Posicion": "DELANTERA",
+        "Edad_jugador": 19,
+        "Id_jugador": "1"
+      },
+      {
+        "Nombre_jugador": "VALENTINA",
+        "Nro_dorsal": 4,
+        "Posicion": "DEFENSA",
+        "Edad_jugador": 20,
+        "Id_jugador": "2"
+      }
+    ],
+    "Tecnicos": [
+      {
+        "Nombre_tecnico": "LUZ MARINE",
+        "Cargo": "PREPARADORA FISICA",
+        "Edad_tecnico": 34,
+        "Id_tecnico": "1"
+      },
+      {
+        "Nombre_tecnico": "CARLOS",
+        "Cargo": "PREPARADOR FISICO",
+        "Edad_tecnico": 38,
+        "Id_tecnico": "2"
+      }
+    ],
+    "Medicos": [
+      {
+        "Nombre_medico": "CARLOS",
+        "Especialidad": "ANATOMIA",
+        "Edad_medico": 42,
+        "Id_medico": "1"
+      },
+      {
+        "Nombre_medico": "MELISA",
+        "Especialidad": "NUTRICION",
+        "Edad_medico": 36,
+        "Id_medico": "2"
+      }
+    ],
+    "LeyendaPuntos": []
+  },
+  {
+    "Nombre_pais": "VENEZUELA",
+    "Grupo": "A",
+    "Id_equipo": "3",
+    "Jugadores": [],
+    "Tecnicos": [],
+    "Medicos": [],
+    "LeyendaPuntos": []
+  },
+  {
+    "Nombre_pais": "ARGENTINA",
+    "Grupo": "A",
+    "Id_equipo": "4",
+    "Jugadores": [],
+    "Tecnicos": [],
+    "Medicos": [],
+    "LeyendaPuntos": []
+  }
+]

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace programa_FIFA_Scharp.clases
+namespace programa_FIFA_Scharp.Entities
 {
     public class Jugador
     {
@@ -17,7 +17,7 @@ namespace programa_FIFA_Scharp.clases
         public string ? Nombre_jugador { get => nombre_jugador; set => nombre_jugador = value; }
         public int Nro_dorsal { get => nro_dorsal; set => nro_dorsal = value; }
         public string ? Posicion { get => posicion; set => posicion = value; }
-        public int Edad_juagador { get => edad_jugador; set => edad_jugador = value; }
+        public int Edad_jugador { get => edad_jugador; set => edad_jugador = value; }
         public string ? Id_jugador { get => id_jugador; set => id_jugador = value; }
 
         public Jugador(string id_jugador, string nombre_jugador, int nro_dorsal, string posicion, int edad_jugador)
@@ -34,7 +34,7 @@ namespace programa_FIFA_Scharp.clases
 
         }
 
-        public Jugador RegistroJugador(){
+        /*public Jugador RegistroJugador(){
             Jugador jugador = new Jugador();
             Console.WriteLine("Ingrese el Id del jugador:");
             jugador.Id_jugador = Console.ReadLine();
@@ -45,8 +45,8 @@ namespace programa_FIFA_Scharp.clases
             Console.WriteLine("Ingrese la posicion del jugador:");
             jugador.Posicion = Console.ReadLine();
             Console.WriteLine("Ingrese la edad del jugador:");
-            jugador.edad_jugador = Convert.ToInt32(Console.ReadLine());
+            jugador.Edad_jugador = Convert.ToInt32(Console.ReadLine());
             return jugador;
-        }
+        }*/
     }
 }

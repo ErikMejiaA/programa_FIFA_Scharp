@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace programa_FIFA_Scharp.clases
+namespace programa_FIFA_Scharp.Entities
 {
     public class PuntosClasificacion
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace programa_FIFA_Scharp.clases
+namespace programa_FIFA_Scharp.Entities
 {
     public class Equipo
     {
@@ -40,5 +40,17 @@ namespace programa_FIFA_Scharp.clases
         {
 
         }
+
+        /*public Equipo RegistroEquipo() {
+            
+            Equipo equipo = new Equipo();
+            Console.WriteLine("Ingrese el Id del Equipo: ");
+            equipo.Id_equipo = Console.ReadLine();
+            Console.WriteLine("Ingrese el nombre del pais: ");
+            equipo.Nombre_pais = Console.ReadLine();
+            Console.WriteLine("Ingrese el grupo al que pertenece: ");
+            equipo.Grupo = Console.ReadLine();
+            return equipo;
+        }*/
     }
 }

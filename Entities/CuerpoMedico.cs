@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace programa_FIFA_Scharp.clases
+namespace programa_FIFA_Scharp.Entities
 {
     public class CuerpoMedico
     {
@@ -28,7 +28,7 @@ namespace programa_FIFA_Scharp.clases
 
         }
 
-        public CuerpoMedico RegistrarCuerpoMedico(){
+        /*public CuerpoMedico RegistrarCuerpoMedico(){
             CuerpoMedico cuerpoMedico = new CuerpoMedico();
             Console.WriteLine("Ingrese el Id del cuerpo Medico:");
             cuerpoMedico.Id_medico = Console.ReadLine();
@@ -39,6 +39,6 @@ namespace programa_FIFA_Scharp.clases
             Console.WriteLine("Dijete la edad del Cuerpo Tecnico:");
             cuerpoMedico.Edad_medico = Convert.ToInt32(Console.ReadLine());
             return cuerpoMedico;
-        }
+        }*/
     }
 }

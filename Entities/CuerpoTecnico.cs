@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace programa_FIFA_Scharp.clases
+namespace programa_FIFA_Scharp.Entities
 {
     public class CuerpoTecnico
     {
@@ -29,7 +29,7 @@ namespace programa_FIFA_Scharp.clases
 
         }
 
-        public CuerpoTecnico RegistraCuerpoTecnico(){
+        /*public CuerpoTecnico RegistraCuerpoTecnico(){
             CuerpoTecnico cuerpoTecnico = new CuerpoTecnico();
             Console.WriteLine("Ingrese el id del Cuerpo Tecnico:");
             cuerpoTecnico.Id_tecnico = Console.ReadLine();
@@ -40,7 +40,7 @@ namespace programa_FIFA_Scharp.clases
             Console.WriteLine("Ingrese la edad del Cuerpo Tecnico:");
             cuerpoTecnico.Edad_tecnico = Convert.ToInt32(Console.ReadLine());
             return cuerpoTecnico;
-        }
+        }*/
 
     }
 }

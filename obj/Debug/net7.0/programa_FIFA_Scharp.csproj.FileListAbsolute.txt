@@ -1,3 +1,33 @@
+D:/Campus Lat/programasNETCore/programa_FIFA_Scharp/bin/Debug/net7.0/programa_FIFA_Scharp.exe
+D:/Campus Lat/programasNETCore/programa_FIFA_Scharp/bin/Debug/net7.0/programa_FIFA_Scharp.deps.json
+D:/Campus Lat/programasNETCore/programa_FIFA_Scharp/bin/Debug/net7.0/programa_FIFA_Scharp.runtimeconfig.json
+D:/Campus Lat/programasNETCore/programa_FIFA_Scharp/bin/Debug/net7.0/programa_FIFA_Scharp.dll
+D:/Campus Lat/programasNETCore/programa_FIFA_Scharp/bin/Debug/net7.0/programa_FIFA_Scharp.pdb
+D:/Campus Lat/programasNETCore/programa_FIFA_Scharp/obj/Debug/net7.0/programa_FIFA_Scharp.csproj.AssemblyReference.cache
+D:/Campus Lat/programasNETCore/programa_FIFA_Scharp/obj/Debug/net7.0/programa_FIFA_Scharp.GeneratedMSBuildEditorConfig.editorconfig
+D:/Campus Lat/programasNETCore/programa_FIFA_Scharp/obj/Debug/net7.0/programa_FIFA_Scharp.AssemblyInfoInputs.cache
+D:/Campus Lat/programasNETCore/programa_FIFA_Scharp/obj/Debug/net7.0/programa_FIFA_Scharp.AssemblyInfo.cs
+D:/Campus Lat/programasNETCore/programa_FIFA_Scharp/obj/Debug/net7.0/programa_FIFA_Scharp.csproj.CoreCompileInputs.cache
+D:/Campus Lat/programasNETCore/programa_FIFA_Scharp/obj/Debug/net7.0/programa_FIFA_Scharp.dll
+D:/Campus Lat/programasNETCore/programa_FIFA_Scharp/obj/Debug/net7.0/refint/programa_FIFA_Scharp.dll
+D:/Campus Lat/programasNETCore/programa_FIFA_Scharp/obj/Debug/net7.0/programa_FIFA_Scharp.pdb
+D:/Campus Lat/programasNETCore/programa_FIFA_Scharp/obj/Debug/net7.0/programa_FIFA_Scharp.genruntimeconfig.cache
+D:/Campus Lat/programasNETCore/programa_FIFA_Scharp/obj/Debug/net7.0/ref/programa_FIFA_Scharp.dll
+/home/apolm01-032/Desktop/programa_FIFA_Scharp/bin/Debug/net7.0/programa_FIFA_Scharp
+/home/apolm01-032/Desktop/programa_FIFA_Scharp/bin/Debug/net7.0/programa_FIFA_Scharp.deps.json
+/home/apolm01-032/Desktop/programa_FIFA_Scharp/bin/Debug/net7.0/programa_FIFA_Scharp.runtimeconfig.json
+/home/apolm01-032/Desktop/programa_FIFA_Scharp/bin/Debug/net7.0/programa_FIFA_Scharp.dll
+/home/apolm01-032/Desktop/programa_FIFA_Scharp/bin/Debug/net7.0/programa_FIFA_Scharp.pdb
+/home/apolm01-032/Desktop/programa_FIFA_Scharp/obj/Debug/net7.0/programa_FIFA_Scharp.csproj.AssemblyReference.cache
+/home/apolm01-032/Desktop/programa_FIFA_Scharp/obj/Debug/net7.0/programa_FIFA_Scharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/apolm01-032/Desktop/programa_FIFA_Scharp/obj/Debug/net7.0/programa_FIFA_Scharp.AssemblyInfoInputs.cache
+/home/apolm01-032/Desktop/programa_FIFA_Scharp/obj/Debug/net7.0/programa_FIFA_Scharp.AssemblyInfo.cs
+/home/apolm01-032/Desktop/programa_FIFA_Scharp/obj/Debug/net7.0/programa_FIFA_Scharp.csproj.CoreCompileInputs.cache
+/home/apolm01-032/Desktop/programa_FIFA_Scharp/obj/Debug/net7.0/programa_FIFA_Scharp.dll
+/home/apolm01-032/Desktop/programa_FIFA_Scharp/obj/Debug/net7.0/refint/programa_FIFA_Scharp.dll
+/home/apolm01-032/Desktop/programa_FIFA_Scharp/obj/Debug/net7.0/programa_FIFA_Scharp.pdb
+/home/apolm01-032/Desktop/programa_FIFA_Scharp/obj/Debug/net7.0/programa_FIFA_Scharp.genruntimeconfig.cache
+/home/apolm01-032/Desktop/programa_FIFA_Scharp/obj/Debug/net7.0/ref/programa_FIFA_Scharp.dll
 D:\Campus Lat\programasNETCore\programa_FIFA_Scharp\bin\Debug\net7.0\programa_FIFA_Scharp.exe
 D:\Campus Lat\programasNETCore\programa_FIFA_Scharp\bin\Debug\net7.0\programa_FIFA_Scharp.deps.json
 D:\Campus Lat\programasNETCore\programa_FIFA_Scharp\bin\Debug\net7.0\programa_FIFA_Scharp.runtimeconfig.json
@@ -13,3 +43,5 @@ D:\Campus Lat\programasNETCore\programa_FIFA_Scharp\obj\Debug\net7.0\refint\prog
 D:\Campus Lat\programasNETCore\programa_FIFA_Scharp\obj\Debug\net7.0\programa_FIFA_Scharp.pdb
 D:\Campus Lat\programasNETCore\programa_FIFA_Scharp\obj\Debug\net7.0\programa_FIFA_Scharp.genruntimeconfig.cache
 D:\Campus Lat\programasNETCore\programa_FIFA_Scharp\obj\Debug\net7.0\ref\programa_FIFA_Scharp.dll
+D:\Campus Lat\programasNETCore\programa_FIFA_Scharp\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Campus Lat\programasNETCore\programa_FIFA_Scharp\obj\Debug\net7.0\programa_FIFA_Scharp.csproj.CopyComplete
